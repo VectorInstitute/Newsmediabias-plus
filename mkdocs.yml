@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: News Media Bias Plus
+theme: readthedocs  # You can choose another theme if preferred
+nav:
+    - Home: index.md
+    - About: about.md
