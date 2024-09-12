@@ -1,5 +1,13 @@
 site_name: News Media Bias Plus
-theme: readthedocs  # You can choose another theme if preferred
+theme: material  # You can choose another theme if preferred
+
 nav:
     - Home: index.md
-    - About: about.md
+    - About Us: about-us.md
+    - Dataset: dataset.md
+    - Annotation Framework: annotation-framework.md
+    - Evaluation Framework: evaluation-framework.md
+    - Benchmarks: benchmarks.md
+    - Publications: publications.md
+    - FAQs: faqs.md
+    - Contact Us: contact-us.md
