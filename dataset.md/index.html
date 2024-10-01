@@ -16,7 +16,7 @@
     
     
       
-        <title>Dataset - News Media Bias Plus</title>
+        <title>Dataset Details - News Media Bias Plus</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dataset" class="md-skip">
+        <a href="#dataset-details" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dataset
+              Dataset Details
             
           </span>
         </div>
@@ -207,26 +207,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../about-us.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    About Us
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="." class="md-nav__link">
         
   
@@ -247,7 +227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../annotation-framework.md" class="md-nav__link">
+      <a href="../Annotation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -267,27 +247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../evaluation-framework.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Evaluation Framework
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../benchmarks.md" class="md-nav__link">
+      <a href="../Benchmark/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -307,51 +267,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../publications.md" class="md-nav__link">
+      <a href="../About-us/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Publications
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faqs.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    FAQs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contact-us.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Contact Us
+    About Us
   </span>
   
 
@@ -387,36 +307,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#news-sources" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      News Sources
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-structure" class="md-nav__link">
+  <a href="#date-range" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Structure
+      Date Range
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#access" class="md-nav__link">
+  <a href="#key-features" class="md-nav__link">
     <span class="md-ellipsis">
-      Access
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sample-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sample Data
+      Key Features
     </span>
   </a>
   
@@ -437,14 +348,134 @@
                   
 
 
-<h1 id="dataset">Dataset</h1>
-<h2 id="overview">Overview</h2>
-<p>Describe the methodologies used for data collection, including any automated scraping, partnerships with news organizations, or crowdsourced methods.</p>
-<h2 id="data-structure">Data Structure</h2>
-<p>Detail the structure of your dataset, including any categorizations, annotations, and how the data is formatted.</p>
+<h1 id="dataset-details">Dataset Details</h1>
+<h2 id="news-sources">News Sources</h2>
+<ul>
+<li>CNN, Fox News, CBS News, ABC News, New York Times</li>
+<li>Washington Post, BBC, USA Today, Wall Street Journal</li>
+<li>AP News, Politico, New York Post, Forbes, Reuters</li>
+<li>Bloomberg, Al Jazeera, PBS NewsHour, The Guardian</li>
+<li>Newsmax, HuffPost, CNBC, C-SPAN, The Economist</li>
+<li>Financial Times, Time, Newsweek, The Atlantic</li>
+<li>The New Yorker, The Hill, ProPublica, Axios</li>
+<li>National Review, The Daily Beast, Daily Kos</li>
+<li>Washington Examiner, The Federalist, OANN</li>
+<li>Daily Caller, Breitbart, CBC, Toronto Sun</li>
+<li>Global News, The Globe and Mail, National Post</li>
+</ul>
+<h2 id="date-range">Date Range</h2>
+<ul>
+<li>Date range : 2023-05-06 till 2024-09-06
+Python script using feedparser, newspaper3k, and selenium to scrape articles from multiple news sources, supporting keyword searches, custom date ranges, and outputting data to CSV files, with features for deduplication and image downloading.</li>
+</ul>
+<h2 id="key-features">Key Features</h2>
+<ul>
+<li>Scrapes articles from multiple news sources</li>
+<li>Supports keyword-based searches</li>
+<li>Downloads and stores article content and images</li>
+<li>Deduplicates articles based on unique identifiers</li>
+<li>Outputs data to CSV files</li>
+</ul>
+<h1 id="dataset-schema">Dataset Schema</h1>
+<pre><code>-- news_article_analysis (
+unique_id VARCHAR(255) PRIMARY KEY,
+
+-- Bias assessment
+text_label VARCHAR(10) CHECK (text_label IN ('Likely', 'Unlikely')),
+image_label VARCHAR(10) CHECK (image_label IN ('Likely', 'Unlikely')),
+text_label_reason TEXT,
+image_label_reason TEXT,
+news_category VARCHAR(255),
+
+-- Article content
+title VARCHAR(255),
+canonical_link VARCHAR(255),
+first_paragraph TEXT,
+outlet VARCHAR(100),
+source_url VARCHAR(255),
+topics TEXT,
+text_content TEXT,
+date_published TIMESTAMP,
+
+-- Image details
+img_description TEXT,
+image_filename VARCHAR(255),
+
+-- Topic modeling
+bertopics TEXT
+</code></pre>
+<p>)</p>
 <h2 id="access">Access</h2>
-<p>Provide instructions on how users can access the dataset, including any requirements or limitations.</p>
+<p>Here's the information formatted in MkDocs style:</p>
+<h2 id="dataset-access">Dataset Access</h2>
+<h3 id="train">Train</h3>
+<pre><code>https://example.com/datasets/train_data.csv
+</code></pre>
+<h3 id="val">Val</h3>
+<pre><code>https://example.com/datasets/train_data.csv```
+
+### Test
+</code></pre>
+<p>https://example.com/datasets/train_data.csv```</p>
+<p>This format provides clear and organized access to the dataset links for train, validation, and test sets. Users can easily copy the URLs for each dataset split.</p>
 <h2 id="sample-data">Sample Data</h2>
+<p>Certainly! I'll create a sample dataset with 3 entries based on the schema provided. Here's how you can present it in MkDocs format:</p>
+<h2 id="sample-data_1">Sample Data</h2>
+<h2 id="article-1-sex-trafficking-victim-says-sen-katie-britt-telling-her-story-during-sotu-rebuttal-is-not-fair-cnn">Article 1: Sex trafficking victim says Sen. Katie Britt telling her story during SOTU rebuttal is 'not fair' - CNN</h2>
+<ul>
+<li><strong>Unique ID</strong>: 1098444910</li>
+<li><strong>Title</strong>: <a href="https://www.cnn.com/2024/03/10/politics/katie-britt-sex-trafficking-victim-interview/index.html">Sex trafficking victim says Sen. Katie Britt telling her story during SOTU rebuttal is 'not fair' - CNN</a></li>
+<li><strong>Text</strong>: CNN — The woman whose story Alabama Sen. Katie Britt appeared to have shared in the Republican response to the State of the Union as an example of President Joe Biden’s failed immigration policies told CNN she was trafficked before Biden’s presidency and said legislators lack empathy when using the issue of human trafficking for political purposes. <blockquote>
+<p>"I hardly ever cooperate with politicians, because it seems to me that they only want an image. They only want a photo — and that to me is not fair," Karla Jacinto told CNN on Sunday.</p>
+</blockquote>
+</li>
+<li><strong>Outlet</strong>: CNN</li>
+<li><strong>Source URL</strong>: <a href="https://www.cnn.com">CNN</a></li>
+<li><strong>Topics</strong>: 5_bipartisan, border, border deal, border policy, border wall</li>
+<li><strong>Date Published</strong>: 2024-03-10</li>
+<li><strong>Image Description</strong>: <blockquote>
+<p>The image shows a person standing at a podium with a microphone, appearing to be giving a speech or presentation. The individual is wearing a pink blazer with a white shirt underneath. The background is indistinct but suggests an indoor setting with a wooden structure, possibly a room with a high ceiling. There are no visible logos, text, or other identifying features that provide context to the event or the person's identity.</p>
+</blockquote>
+</li>
+<li><strong>Text Label</strong>: Unlikely</li>
+<li><strong>Text Bias Analysis</strong>:<blockquote>
+<p>"failed immigration policies", "lack of empathy", "despicable", "almost entirely preventable"</p>
+</blockquote>
+</li>
+<li><strong>Image Label</strong>: Unlikely</li>
+<li><strong>Image Analysis</strong>:<blockquote>
+<p>The image alone does not provide enough context to analyze potential biases. The choice of the image could be influenced by the event's significance, the person's role, or the visual impact of the pink blazer. Without additional information, it is not possible to determine if the image is biased or Unbiased. The image does not appear to evoke strong emotions as it is a straightforward depiction of a person at a podium. There are no clear indications of stereotypes or oversimplification of complex issues in the image.</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h2 id="article-2-las-graffiti-tagged-skyscraper-a-work-of-art-and-symbol-of-citys-wider-failings-the-guardian-us">Article 2: LA’s graffiti-tagged skyscraper: a work of art – and symbol of city’s wider failings - The Guardian US</h2>
+<ul>
+<li><strong>Unique ID</strong>: 1148232027</li>
+<li><strong>Title</strong>: <a href="https://www.theguardian.com/us-news/2024/mar/17/los-angeles-graffiti-abandoned-skyscraper-downtown">LA’s graffiti-tagged skyscraper: a work of art – and symbol of city’s wider failings - The Guardian US</a></li>
+<li><strong>Text</strong>: <blockquote>
+<p>An asparagus patch is how the architect Charles Moore described the lackluster skyline of downtown Los Angeles in the 1980s. "The tallest stalk and the shortest stalk are just alike, except that the tallest has shot farther out of the ground." This sprawling city of bungalows has never been known for the quality of its high-rise buildings, and not much has changed since Moore’s day. A 1950s ordinance dictating that every tower must have a flat roof was rescinded in 2014, spawning a handful of clumsy quiffs and crowns atop a fresh crop of swollen glass slabs. It only added further evidence to the notion that architects in this seismic city are probably better suited to staying on the ground.</p>
+</blockquote>
+</li>
+<li><strong>Outlet</strong>: The Guardian US</li>
+<li><strong>Source URL</strong>: <a href="https://www.theguardian.com">The Guardian US</a></li>
+<li><strong>Topics</strong>: affordable housing, public housing, homeowners, housing crisis</li>
+<li><strong>Date Published</strong>: 2024-03-17</li>
+<li><strong>Image Description</strong>: <blockquote>
+<p>The image shows a tall, multi-story building with numerous windows. The building is covered in various graffiti tags and symbols, with words like 'READY', 'SHAKA', 'RAKM', 'TOOL', 'TOLT', 'KERZ', 'SMK', 'DZER', 'MSK', and 'OBER' prominently displayed. The building is situated in an urban environment with other structures visible in the background. The sky is clear, suggesting it might be daytime. The image is taken from a high angle, looking down on the building.</p>
+</blockquote>
+</li>
+<li><strong>Text Label</strong>: Likely</li>
+<li><strong>Text Bias Analysis</strong>:<blockquote>
+<p>"mind-numbingly generic glass boxes", "abandoned", "doing nothing", "if they ain’t gon finish the job", "This building has needed love for years", "the streets of LA are happy to make something out of it", "the developer had ceased paying"</p>
+</blockquote>
+</li>
+<li><strong>Image Label</strong>: Likely</li>
+<li><strong>Image Analysis</strong>:<blockquote>
+<p>The image and accompanying headline from The Guardian US suggest a critical perspective on the state of urban development and the impact of graffiti on architecture. The choice of this image may be intended to highlight the issue of urban decay and the lack of maintenance in certain areas. The graffiti tags could be seen as a form of artistic expression, but within the context of the headline, they are likely to be interpreted as a symbol of the city's wider failings. The image does not provide a balanced view, as it focuses on the negative aspects of the building's appearance. The framing of the image, with the building as the central focus and the surrounding environment in the background, may lead viewers to associate the building's condition with the overall state of the city.</p>
+</blockquote>
+</li>
+</ul>
 
 
 

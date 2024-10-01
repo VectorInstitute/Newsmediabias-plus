@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Benchmark/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -207,26 +211,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../about-us.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    About Us
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../dataset.md" class="md-nav__link">
         
   
@@ -244,10 +228,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../annotation-framework.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Annotation Framework
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -256,26 +260,62 @@
   
 
       </a>
-    </li>
-  
-
-    
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../evaluation-framework.md" class="md-nav__link">
         
-  
-  <span class="md-ellipsis">
-    Evaluation Framework
-  </span>
-  
 
-      </a>
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-annotation-guidelines-and-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Annotation Guidelines and Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-quality-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Quality Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-evaluation-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Evaluation Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-system-training-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. System Training and Testing
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -287,7 +327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../benchmarks.md" class="md-nav__link">
+      <a href="../Benchmark/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -307,51 +347,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../publications.md" class="md-nav__link">
+      <a href="../About-us/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Publications
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faqs.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    FAQs
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contact-us.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Contact Us
+    About Us
   </span>
   
 
@@ -387,27 +387,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#annotation-guidelines-and-procedure" class="md-nav__link">
+  <a href="#1-annotation-guidelines-and-procedure" class="md-nav__link">
     <span class="md-ellipsis">
-      Annotation Guidelines and Procedure
+      1. Annotation Guidelines and Procedure
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quality-control" class="md-nav__link">
+  <a href="#2-quality-control" class="md-nav__link">
     <span class="md-ellipsis">
-      Quality Control
+      2. Quality Control
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#annotation-tools" class="md-nav__link">
+  <a href="#3-evaluation-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      Annotation Tools
+      3. Evaluation Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-system-training-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. System Training and Testing
     </span>
   </a>
   
@@ -429,11 +438,15 @@
 
 
 <h1 id="annotation-framework">Annotation Framework</h1>
-<p>[Figure]</p>
-<h2 id="annotation-guidelines-and-procedure">Annotation Guidelines and Procedure</h2>
-<h2 id="quality-control">Quality Control</h2>
-<p>IAA, cohen</p>
-<h2 id="annotation-tools">Annotation Tools</h2>
+<p><img alt="Annotation Pipeline" src="../images/annotation_pipeline.png" /></p>
+<h2 id="1-annotation-guidelines-and-procedure">1. Annotation Guidelines and Procedure</h2>
+<p>This framework outlines a structured approach for annotating news articles, incorporating both text and images. The process begins with human annotators labeling a carefully selected subset of the data. Once this subset is annotated, Large Language Models (LLMs) take over to expand these labels across the entire dataset. By aligning annotations with corresponding text and images, the result is a <strong>Silver Standard Dataset</strong>.</p>
+<h2 id="2-quality-control">2. Quality Control</h2>
+<p>To ensure the reliability and consistency of annotations, multiple quality control mechanisms are in place. <strong>Cohen's Kappa</strong> is employed to measure inter-annotator agreement, highlighting areas that may require further clarification. In addition to automated checks, human reviewers manually evaluate a portion of the annotations. This dual approach maintains the quality and accuracy of the labeled data.</p>
+<h2 id="3-evaluation-pipeline">3. Evaluation Pipeline</h2>
+<p>The evaluation process is designed to convert the Silver Standard Dataset into a <strong>Gold Standard Dataset</strong>. Initially, an LLM-based jury provides judgments on the quality of the annotations. These judgments are then reviewed by human experts, who validate, refine, or discard annotations as necessary. This collaborative effort between machines and human reviewers ensures a high-quality final dataset.</p>
+<h2 id="4-system-training-and-testing">4. System Training and Testing</h2>
+<p>Once the Gold Standard Dataset is established, it serves as the foundation for training and testing models in <strong>multi-modal bias detection</strong>. This process ensures the model’s performance remains robust across various data types, including both text and images.</p>
 
 
 
