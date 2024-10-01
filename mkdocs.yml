@@ -3,11 +3,8 @@ theme: material  # You can choose another theme if preferred
 
 nav:
     - Home: index.md
-    - About Us: about-us.md
+    
     - Dataset: dataset.md
-    - Annotation Framework: annotation-framework.md
-    - Evaluation Framework: evaluation-framework.md
-    - Benchmarks: benchmarks.md
-    - Publications: publications.md
-    - FAQs: faqs.md
-    - Contact Us: contact-us.md
+    - Annotation Framework: Annotation.md
+    - Benchmarks: Benchmark.md
+    - About Us: About-us.md
