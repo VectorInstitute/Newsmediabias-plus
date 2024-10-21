@@ -14,9 +14,6 @@
     <strong>Marcelo Lotif</strong><br> Senior Software Developer & ML Engineer, Vector Institute
   </div>
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
-    <strong>Caesar Saleh</strong><br> Undergraduate Researcher, University of Toronto, Vector Institute
-  </div>
-  <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
     <strong>Emrul Hasan</strong><br> Ph.D. Candidate, Toronto Metropolitan University, Vector Institute
   </div>
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
@@ -25,8 +22,11 @@
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
     <strong>Franklin Ogidi</strong><br> Associate Machine Learning Specialist, Vector Institute
   </div>
+    <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Caesar Saleh</strong><br> Intern, University of Toronto, Vector Institute
+  </div>
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
-    <strong>Roya Javadi</strong><br> Machine Learning Software Engineer, Vector Institute
+    <strong>Roya Javadi</strong><br> Machine Learning Software Developer, Vector Institute
   </div>
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
     <strong>Sina Salimian</strong><br> Research Assistant, University of Calgary
@@ -57,5 +57,5 @@
 
 ## Acknowledgments
 
-We extend our sincere thanks to Michael Joseph, Manoj Athreya, Sara Kodeiri, Roya Javadi, Fatemeh Tavakoli, Nan Ajmain, Wu Rupert, and the entire team for their valuable assistance in reviewing the data.
+We extend our sincere thanks to Michael Joseph, Manoj Athreya, Sherry, Sara Kodeiri, Roya Javadi, Fatemeh Tavakoli, Nan Ajmain, Wu Rupert, and the entire team for their valuable assistance in reviewing the data.
 
