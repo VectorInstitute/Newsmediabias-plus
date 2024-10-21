@@ -1,6 +1,8 @@
 # News Media Bias Plus Project
 
-![Vector Institute Logo](images/Vector Logo_Bilingual_FullColour_Horizontal.jpg)
+<div style="background-color: #ffffff; padding: 20px; text-align: center;">
+    <img src="images/Vector Logo_Bilingual_FullColour_Horizontal.jpg" alt="Vector Institute Logo" style="height: 80px;"/>
+</div>
 
 ## Our Mission
 
