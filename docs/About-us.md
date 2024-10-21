@@ -49,7 +49,7 @@
     <strong>Dr. Gias Uddin</strong><br> Professor, York University
   </div>
   <div style="flex: 1 1 300px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
-    <strong>Dr. Aditya Jain</strong><br> Computational Scientist, Meta
+    <strong>Dr. Aditya Jain</strong><br> Applied Research Scientist, Meta
   </div>
  
 </div>
