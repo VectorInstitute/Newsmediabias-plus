@@ -10,6 +10,7 @@ nav:
     # - Annotation Framework: Annotation.md
     - HumaniBench: HumaniBench.md
     - VLDBench: VLDBench.md
+    - Fairsense: Fairsense.md
     - Publications: Publications.md
     - About Us: About-us.md
 
