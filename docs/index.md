@@ -1,62 +1,75 @@
 # News Media Bias Plus Project
 
 <div style="background-color: #ffffff; padding: 20px; text-align: center;">
-    <img src="images/Vector Logo_Bilingual_FullColour_Horizontal.jpg" alt="Vector Institute Logo" style="height: 80px;"/>
+  <img src="images/Vector Logo_Bilingual_FullColour_Horizontal.jpg" alt="Vector Institute Logo" style="height: 80px;"/>
 </div>
+
+---
 
 ## Our Mission
 
-The **News Media Bias Plus Project** is a leading initiative in the field of responsible AI, dedicated to advancing the understanding of media bias and disinformation through the lens of artificial intelligence. We focus on the critical intersection between AI safety and media integrity, with the goal of promoting a more balanced and transparent information ecosystem. Our key areas of interest include:
+The **News Media Bias Plus Project** leads the way in responsible AI research, advancing understanding of media bias and disinformation through artificial intelligence. We focus on the critical intersection of AI safety and media integrity, aiming to foster a more balanced and transparent information ecosystem.
 
-- **Bias Detection:** Identifying and addressing biases in both AI systems and media content.
-- **Disinformation Challenges:** Combatting misinformation and its societal impact.
-- **Ethical AI:** Advocating for the responsible use of AI in media production and journalism.
+Our key focus areas include:
+
+- **Bias Detection:** Identifying and mitigating biases in AI systems and media content.  
+- **Disinformation Challenges:** Tackling misinformation and its societal impacts.  
+- **Ethical AI:** Promoting responsible AI use in media and journalism.
+
+---
 
 ## Our Framework
 
-By leveraging cutting-edge AI techniques, we analyze diverse media formats—including news articles, documents, and images—to detect, categorize, and mitigate various forms of media bias. Our comprehensive system assesses:
+Leveraging cutting-edge AI techniques, we analyze diverse media formats—news articles, documents, and images—to detect, categorize, and mitigate media bias. Our comprehensive system evaluates:
 
-- **Topic Coverage and Framing:** How media outlets present and prioritize different subjects.
-- **Ideological Leanings and Sentiment:** The underlying tone and political inclinations in media.
-- **Language Patterns and Tone:** Examination of stylistic choices that influence perception.
-- **Source Credibility and Transparency:** Evaluation of the reliability and openness of information sources.
+- **Topic Coverage & Framing:** How outlets prioritize and present topics.  
+- **Ideological Leanings & Sentiment:** Underlying political tones and biases.  
+- **Language Patterns & Tone:** Stylistic features shaping perception.  
+- **Source Credibility & Transparency:** Trustworthiness and openness of sources.
+
+---
 
 ## Key Features
 
-- **Bias Analysis:** Comparative analysis of media coverage across multiple sources to highlight differences in bias and framing.
-- **AI Safety Metrics:** Monitoring and assessing the role of AI in content generation and bias detection, ensuring its responsible deployment.
-- **Disinformation Alerts:** Identifying potential AI-generated disinformation, including deepfakes and fabricated news.
-- **Interactive Visualizations:** Engaging tools that allow users to explore media bias trends and the growing influence of AI in journalism.
+- **Bias Analysis:** Cross-source comparative analyses highlighting bias differences.  
+- **AI Safety Metrics:** Monitoring AI’s role in content creation and bias detection.  
+- **Disinformation Alerts:** Identifying AI-generated disinformation like deepfakes and fake news.  
+- **Interactive Visualizations:** Tools to explore media bias trends and AI’s impact on journalism.
+
+---
 
 ## Why It Matters
 
-In an era where artificial intelligence is increasingly shaping the media landscape, understanding its role in media bias and disinformation is essential for:
+In an era of growing AI influence on media, understanding AI's role in bias and disinformation is essential for:
 
-- **Promoting Media Literacy:** Empowering individuals to critically evaluate news content and sources.
-- **Ensuring Responsible AI Development:** Fostering the ethical use of AI in journalism and news production.
-- **Building Trust:** Strengthening trust in AI systems and media institutions by improving transparency and accountability.
+- **Promoting Media Literacy:** Empowering critical evaluation of news.  
+- **Ensuring Responsible AI Development:** Advocating ethical AI use in journalism.  
+- **Building Trust:** Enhancing transparency and accountability in media and AI systems.
+
+---
 
 ## Dataset Access
 
+Explore all our datasets, models, and resources on the dedicated [Datasets page](dataset.md).
 
-### Download from Huggingface
-[NewsMediaBias-Plus Dataset on Hugging Face](https://huggingface.co/datasets/vector-institute/newsmediabias-plus)
+For quick access, visit the [NewsMediaBias-Plus dataset on Hugging Face](https://huggingface.co/datasets/vector-institute/newsmediabias-plus).
 
-
-### Download Parquet and Images 
-[Zenodo Record](https://zenodo.org/records/13961155)
+---
 
 
 ## Get Involved & Contact Us
 
-We invite researchers, developers, and the broader public to contribute to our efforts in combating media bias and disinformation. You can support our project by:
+We welcome researchers, developers, and the public to join us in combating media bias and disinformation. Support our work by:
 
-- **Collaborating** on bias detection and disinformation research.
-- **Requesting Data Access** or providing feedback by completing the form below:
+- **Collaborating** on research and development.  
+- **Requesting Data Access** or providing feedback through the form below.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdc6zo-kQjf-bldxmJ552FkdbBZb5H8ODn4fYZYmihnUFcT6A/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-**Contact Information:**  
+---
+
+### Contact Information  
+
 Vector Institute for Artificial Intelligence  
 Schwartz Reisman Innovation Campus  
 108 College St., Suite W1140  

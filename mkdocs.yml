@@ -4,7 +4,10 @@ theme: material  # You can choose another theme if preferred
 nav:
     - Home: index.md
     
-    - Dataset: dataset.md
-    - Annotation Framework: Annotation.md
-    - Benchmarks: Benchmark.md
+    - Datasets: dataset.md
+    # - Annotation Framework: Annotation.md
+    - HumaniBench: HumaniBench.md
+    - VLDBench: VLDBench.md
+    - Publications: Publications.md
     - About Us: About-us.md
+
