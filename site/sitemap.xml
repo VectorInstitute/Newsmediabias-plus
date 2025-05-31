@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/index.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/About-us.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/About-us/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/Annotation.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/Annotation/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/Benchmark.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/Benchmark/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/Fairsense.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/Fairsense/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/HumaniBench.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/HumaniBench/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/Publications.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/Publications/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/VLDBench.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/VLDBench/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
     <url>
-         <loc>https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp/dataset.html</loc>
+         <loc>https://vectorinstitute.github.io/Newsmediabias-plus/dataset/</loc>
          <lastmod>2025-05-31</lastmod>
     </url>
 </urlset>
