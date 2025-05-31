@@ -1,4 +1,6 @@
 site_name: News Media Bias Plus
+site_url: https://github.com/VectorInstitute/Newsmediabias-plus/tree/website-rewamp
+use_directory_urls: false
 theme: material  # You can choose another theme if preferred
 
 nav:
