@@ -52,7 +52,7 @@ In an era of growing AI influence on media, understanding AI's role in bias and 
 
 Explore all our datasets, models, and resources on the dedicated [Datasets page](dataset.md).
 
-For quick access, visit the [NewsMediaBias-Plus dataset on Hugging Face](https://huggingface.co/datasets/vector-institute/newsmediabias-plus).
+For quick access, visit the [NewsMediaBias-Plus collection on Hugging Face](https://huggingface.co/collections/vector-institute/newsmediabias-plus-6713b5d93f36e628d64665f0).
 
 ---
 

@@ -1,7 +1,9 @@
 site_name: News Media Bias Plus
 site_url: https://vectorinstitute.github.io/Newsmediabias-plus/
 use_directory_urls: false
-theme: material  # You can choose another theme if preferred
+
+theme:
+  name: material
 
 nav:
     - Home: index.md

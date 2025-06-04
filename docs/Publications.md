@@ -25,5 +25,6 @@
 
 - [New multimodal dataset will help in the development of ethical AI systems](https://vectorinstitute.ai/new-multimodal-dataset-will-help-in-the-development-of-ethical-ai-systems/)
 - [Neutralizing Bias in AI: Vector Institute’s UNBIAS Framework Revolutionizes Ethical Text Analysis](https://vectorinstitute.ai/neutralizing-bias-in-ai-vector-institutes-unbias-framework-revolutionizes-ethical-text-analysis/)
+- [Dataset For Disinformation Detection In AI systems](https://www.researchseer.com/volumes-issues/volume-4-issue-2/a-dataset-at-a-glance)
 - [FairSense: Integrating Responsible AI and Sustainability](https://vectorinstitute.ai/fairsense-integrating-responsible-ai-and-sustainability/)
 - [YouTube Presentation: HumaniBench](https://www.youtube.com/watch?v=mwy9chzMt8U&list=PLc9Df8nOsXg4R-GWXVItZMGbr-ocqY8c-&index=2)
