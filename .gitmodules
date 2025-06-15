@@ -1,0 +1,9 @@
+[submodule "code/projects/VLDBench"]
+	path = code/projects/VLDBench
+	url = https://github.com/VectorInstitute/VLDBench.git
+[submodule "code/projects/HumaniBench"]
+	path = code/projects/HumaniBench
+	url = https://github.com/VectorInstitute/HumaniBench.git
+[submodule "code/projects/fair-sense-ai"]
+	path = code/projects/fair-sense-ai
+	url = https://github.com/VectorInstitute/fair-sense-ai.git
