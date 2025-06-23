@@ -8,6 +8,7 @@ import io
 import base64
 from torch.utils.data import DataLoader
 
+# This script generates attributes for images in a dataset using OpenAI's GPT-4 model.
 
 # Define dataset features
 features = Features({

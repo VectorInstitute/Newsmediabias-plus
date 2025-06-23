@@ -3,6 +3,8 @@ import pandas as pd
 from transformers import pipeline
 from argparse import ArgumentParser
 
+# This script uses the BART model to summarize text content in a CSV file.
+
 # Function to summarize text
 def summarize_text(text, max_length=200, summary_length=150, do_sample=False):
     """

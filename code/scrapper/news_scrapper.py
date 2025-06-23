@@ -18,6 +18,8 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from tqdm import tqdm
 
+# This script scrapes news articles from various sources using Google News RSS feeds.
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s: %(message)s",

@@ -7,6 +7,8 @@ from openai import OpenAI
 import os
 from bias_entity import BiasEntityExtraction
 
+# This script uses the OpenAI API to evaluate bias in news articles using Named Entity Recognition (NER) labeling.
+
 def configure_openai_api():
     """Set up OpenAI API key and environment variable."""
     api_key = 'sk-proj-'  # ← Replace with your actual OpenAI API key

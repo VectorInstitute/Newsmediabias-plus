@@ -1,6 +1,8 @@
 import argparse
 import pandas as pd
 
+# This script compares multiple CSV files containing labels and explanations, calculates the majority vote for each unique ID, and outputs a new CSV file with the results.
+
 def majority_vote(labels, explanations):
     """Calculate the majority vote from a list of labels and explanations."""
     mode_label = labels.mode()[0]

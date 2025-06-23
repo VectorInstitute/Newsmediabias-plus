@@ -2,9 +2,12 @@ import logging
 import os
 import random
 import argparse
-
 import nlpaug.augmenter.word as naw
 from datasets import load_dataset
+
+# This script oversamples the minority class in a dataset by applying
+
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

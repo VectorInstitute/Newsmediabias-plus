@@ -12,6 +12,8 @@ import pandas as pd
 from pprint import pprint
 import argparse
 
+# This module is used to annotate a sentence with one entity, using a language model to analyze the sentence and return a list of NER labels for each word in the sentence.
+
 class NERIndividualAnnotationModule(dspy.Module):
     """
     Module for annotating a sentence with one entity.

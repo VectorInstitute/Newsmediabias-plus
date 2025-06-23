@@ -7,6 +7,8 @@ import sys
 import logging
 import argparse
 
+# This script processes news articles for fact-checking using the OpenAI API with a 5-shot learning approach.
+
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 

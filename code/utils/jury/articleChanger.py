@@ -6,6 +6,7 @@ import csv
 import argparse
 from tqdm import tqdm
 
+# This script uses the LLama3 model to apply linguistic transformations to text articles.
 
 class LLama3:
     def __init__(self):

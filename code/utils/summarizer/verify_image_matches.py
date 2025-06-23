@@ -3,6 +3,8 @@ import logging
 import argparse
 import pandas as pd
 
+# # This script checks if unique IDs in a dataset match image files in a specified directory.
+
 def setup_logging(log_file_path):
     """Configure logging."""
     logging.basicConfig(

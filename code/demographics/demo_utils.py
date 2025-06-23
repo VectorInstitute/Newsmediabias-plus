@@ -1,5 +1,7 @@
 import re
 
+# This module provides utility functions to extract demographic information from text documents.
+
 def prompt(demo_type=None):
         """
         Function to return the prompt for each demographic type.

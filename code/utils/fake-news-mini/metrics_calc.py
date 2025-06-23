@@ -2,6 +2,8 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import argparse
 
+# This script calculates various metrics (accuracy, precision, recall, F1 score) for a fake news classification task based on ground truth and predictions from a CSV file.
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Calculate metrics for fake news classification')
     parser.add_argument('--ground_truth', type=str, required=True, help='Path to the ground truth CSV file')

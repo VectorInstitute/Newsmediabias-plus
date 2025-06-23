@@ -2,6 +2,7 @@ import re
 import base64
 import logging
 
+# This module provides utility functions for processing URLs, particularly those containing Base64 encoded segments.
 
 def get_pretty_url(url):
     """

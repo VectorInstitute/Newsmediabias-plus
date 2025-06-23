@@ -7,6 +7,8 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import os
 
+# This script summarizes text data in parallel using the BART model from Hugging Face Transformers.
+
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 
 MODEL_NAME = "facebook/bart-large-cnn"

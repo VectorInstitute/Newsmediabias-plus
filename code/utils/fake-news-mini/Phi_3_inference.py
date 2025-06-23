@@ -7,13 +7,15 @@ import sys
 import logging
 import argparse
 
+# This script processes news articles to detect bias using OpenAI's Phi-3 model.
+
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
 MODEL_NAME = "Phi-3-medium-128k-instruct"
 
 # OpenAI client setup
-client = OpenAI(base_url="http://gpu044:8080/v1", api_key="EMPTY")
+client = OpenAI(base_url=" ", api_key="EMPTY") # Replace with your OpenAI API key and base URL
 
 def detect_bias_sync(article, model):
     """ Synchronously detect bias and extract explanation from the OpenAI API response. """

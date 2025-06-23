@@ -12,6 +12,8 @@ from demo_utils import prompt, extract_info
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm.asyncio import tqdm as tqdm_asyncio
 
+# This module provides functions to perform demographic inference on news articles using a pre-trained LLaMA model.
+
 async def predictions(model, tokenizer, messages):
     """
     Generate predictions using the model based on the provided messages.

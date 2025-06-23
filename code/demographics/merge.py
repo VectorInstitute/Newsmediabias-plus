@@ -1,8 +1,6 @@
 import pandas as pd
 
-"""
-This script merges gender and topics demographic predictions with the main demo_analysis file.
-"""
+# This script merges gender and topics demographic predictions with the main demo_analysis file.
 
 # Load CSVs
 demo_analysis = pd.read_csv("./demo_analysis.csv")

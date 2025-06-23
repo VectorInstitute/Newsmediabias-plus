@@ -15,6 +15,8 @@ import time
 from fake_useragent import UserAgent
 import argparse
 
+# This script scrapes news articles from various sources using Google News RSS feeds.
+
 # Define or import NewsSource and ScrapingMethod
 class ScrapingMethod:
     """Enum-like class to represent different scraping methods."""

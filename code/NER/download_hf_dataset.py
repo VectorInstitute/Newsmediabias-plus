@@ -1,16 +1,14 @@
 from datasets import load_dataset
 import pandas as pd
 
+# This script loads a dataset from Hugging Face and processes it to extract news articles.
+
 # Load the dataset in streaming mode
 streamed_dataset = load_dataset("vector-institute/newsmediabias-plus")
 
-ids = ['654ef428fe', '1b9b6f509f', 'c9b2579d06', '5bf0ec3a3d', 'e3ce687bf4', 
-       'db6f13a554', '6f98a62554', 'd173f68814', '4d35e03150', '2b83650244']
-
-# Filter the dataset
-
+# Filter the dataset if necessary
 df = streamed_dataset['train'].to_pandas()
-filtered_dataset = df[df["unique_id"].isin(ids)]
+filtered_dataset = df # Apply any filtering criteria if needed
 
 print(f"found {len(filtered_dataset)} rows")
 # Collect the first 10 rows

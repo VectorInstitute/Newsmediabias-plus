@@ -7,6 +7,8 @@ import json
 from argparse import ArgumentParser
 from huggingface_hub import login
 
+# This script generates captions and descriptions for images in a dataset using a pre-trained model from Hugging Face.
+
 # Define dataset features
 features = Features({
     "unique_id": Value("string"),

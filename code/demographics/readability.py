@@ -2,6 +2,8 @@ import pandas as pd
 import re
 import argparse
 
+# This module provides functions to calculate the Flesch-Kincaid readability index for text data.
+
 ##########Count_syllables ############
 def count_syllables(word):
     """Count the number of syllables in a word."""

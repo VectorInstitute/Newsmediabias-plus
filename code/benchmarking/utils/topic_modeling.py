@@ -1,6 +1,5 @@
 import argparse
 import os
-
 from bertopic import BERTopic
 from bertopic.representation import KeyBERTInspired
 from bertopic.vectorizers import ClassTfidfTransformer
@@ -10,6 +9,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import normalize
 from umap import UMAP
+
+# This script performs topic modeling on a dataset using BERTopic.
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 

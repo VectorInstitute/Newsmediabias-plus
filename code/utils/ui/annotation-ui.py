@@ -6,6 +6,8 @@ import uuid
 import pandas as pd
 import os
 
+# This script uses the LLama3 model to classify bias in text articles.
+
 models = {}
 
 def load_model(model_name):

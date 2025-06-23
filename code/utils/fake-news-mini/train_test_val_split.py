@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import argparse
 
+# This script splits a dataset into training, validation, and test sets.
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Split dataset into train, validation, and test sets.")
